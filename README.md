@@ -8,14 +8,21 @@ Before software, I spent six years in high-volume operations at Amazon, where 99
 
 ### Tech Stack
 
-- **Frontend:** JavaScript (ES6), React, HTML5, CSS3, Bootstrap
+- **Frontend:** JavaScript (ES6), React, HTML5, CSS3, Tailwind CSS, Bootstrap
 - **Backend:** Node.js, Express, REST APIs, Python, Java
-- **Database:** PostgreSQL, MySQL, Knex
-- **Tools:** Git, GitHub, Vercel, Heroku
+- **Database:** PostgreSQL, Supabase, MySQL, Knex
+- **Testing & Tools:** Vitest, Git, GitHub, Vercel, Heroku
 
 ---
 
 ### Featured Projects
+
+**Keel — Portfolio Rebalancing App**  
+[Live Demo](https://keel-delta-two.vercel.app) · [Source Code](https://github.com/siangling97/Keel)
+- Imports investment holdings from CSV, shows how far a portfolio has drifted from its target mix, and plans rebalancing trades.
+- Tested rebalancing engine with cent-exact money math, dividend projection with DRIP, and a tax-loss harvesting scanner with wash-sale checks.
+- Login built from scratch (bcrypt, httpOnly session cookies, rate limiting), PostgreSQL with Row Level Security.
+- React + Tailwind CSS front end, Express API, PostgreSQL on Supabase, tested with Vitest. Deployed on Vercel. Click "Try the demo" to explore with sample data.
 
 **Restaurant Reservation System**  
 [Live Demo](https://system-ay7r.vercel.app/dashboard) · [Source Code](https://github.com/siangling97/System-)
@@ -38,7 +45,7 @@ Before software, I spent six years in high-volume operations at Amazon, where 99
 
 ### Current Focus
 
-- Associate of Science in Computer Science at Southern New Hampshire University. 3.8 GPA, President's List. Graduating February 2027.
+- Associate of Science in Computer Science at Southern New Hampshire University. 3.8 GPA, President's List. Graduating June 2027.
 - Software Engineering Certificate, Thinkful (October 2024).
 - Looking for a junior software engineer role.
 
